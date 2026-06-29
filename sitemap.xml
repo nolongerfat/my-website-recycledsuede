@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
   <url>
     <loc>https://www.recycledsuede.com/</loc>
     <lastmod>2025-06-28</lastmod>
@@ -30,16 +32,51 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Blog index -->
   <url>
     <loc>https://www.recycledsuede.com/blog/</loc>
-    <lastmod>2025-06-28</lastmod>
+    <lastmod>2025-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Blog articles -->
   <url>
     <loc>https://www.recycledsuede.com/blog/what-is-recycled-leather-suede.html</loc>
     <lastmod>2025-06-28</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.recycledsuede.com/blog/pfas-free-suede-eu-market.html</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.recycledsuede.com/blog/how-to-source-sustainable-suede-footwear.html</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.recycledsuede.com/blog/recycled-suede-vs-virgin-suede.html</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.recycledsuede.com/blog/sgs-testing-suede-guide.html</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.recycledsuede.com/blog/grs-vs-rcs-recycled-certification.html</loc>
+    <lastmod>2025-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
