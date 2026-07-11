@@ -1323,6 +1323,23 @@ h1 em, h2 em {
 
   .use-cases { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; gap: 3rem; }
+
+  /* Homepage inline grids — force single column on mobile */
+  section [style*="grid-template-columns: 1fr 1fr"],
+  section [style*="grid-template-columns:1fr 1fr"],
+  section [style*="grid-template-columns: 2fr 3fr"],
+  section [style*="grid-template-columns:2fr 3fr"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Trust strip — 2 cols on mobile */
+  [style*="grid-template-columns:repeat(4,1fr)"],
+  [style*="grid-template-columns: repeat(4, 1fr)"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Cred strip — 2 cols on mobile */
+  .cred-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .product-grid, .product-grid-reverse { grid-template-columns: 1fr; direction: ltr; }

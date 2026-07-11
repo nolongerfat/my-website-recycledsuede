@@ -41,27 +41,69 @@
     </ul>
   </div>
 
-  <!-- HERO -->
-  <section style="margin-top:var(--nav-h);display:grid;grid-template-columns:2fr 3fr;background:var(--off-white);overflow:hidden;">
+<!-- HERO -->
+  <style>
+    .hero-split {
+      margin-top: var(--nav-h);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: var(--off-white);
+      min-height: 0;
+    }
+    .hero-split-text {
+      padding: 4rem 3rem 4rem 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero-split-img {
+      overflow: hidden;
+      aspect-ratio: 4/5;
+    }
+    .hero-split-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    @media (max-width: 900px) {
+      .hero-split {
+        grid-template-columns: 1fr;
+      }
+      .hero-split-text {
+        padding: 3rem 2rem;
+        order: 2;
+      }
+      .hero-split-img {
+        order: 1;
+        aspect-ratio: 16/9;
+      }
+    }
+    @media (max-width: 480px) {
+      .hero-split-text {
+        padding: 2rem 1.25rem;
+      }
+      .hero-split-img {
+        aspect-ratio: 4/3;
+      }
+    }
+  </style>
 
-    <!-- Left: text — strictly no extra whitespace -->
-    <div style="padding:5rem 3rem 5rem 5vw;display:flex;align-items:center;">
-      <div>
-        <p style="font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:1.25rem;">Recycled Leather Suede · Quanzhou, China</p>
-        <h1 style="font-family:var(--font-display);font-size:clamp(2.25rem,2.8vw,3.25rem);font-weight:400;color:var(--text-dark);line-height:1.15;margin-bottom:1.25rem;">Material that carries <em style="font-style:italic;color:var(--green);">your sustainability story.</em></h1>
-        <p style="font-size:0.9375rem;color:var(--text-muted);line-height:1.8;margin-bottom:2rem;max-width:320px;">100% recycled content. SGS &amp; Bureau Veritas certified. Adidas A-01 standard.</p>
-        <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
-          <a href="contact.html" class="btn-primary">Request a Sample</a>
-          <a href="products.html" class="btn-ghost">View Materials →</a>
-        </div>
+  <section class="hero-split">
+
+    <div class="hero-split-text">
+      <p style="font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:1rem;">Recycled Leather Suede · Quanzhou, China</p>
+      <h1 style="font-family:var(--font-display);font-size:clamp(2rem,3vw,3.25rem);font-weight:400;color:var(--text-dark);line-height:1.15;margin-bottom:1rem;">Material that carries <em style="font-style:italic;color:var(--green);">your sustainability story.</em></h1>
+      <p style="font-size:1rem;color:var(--text-muted);line-height:1.8;margin-bottom:1.75rem;max-width:340px;">100% recycled content. SGS &amp; Bureau Veritas certified. Adidas A-01 standard.</p>
+      <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+        <a href="contact.html" class="btn-primary">Request a Sample</a>
+        <a href="products.html" class="btn-ghost">View Materials →</a>
       </div>
     </div>
 
-    <!-- Right: image, height driven by left content -->
-    <div style="overflow:hidden;min-height:520px;">
-      <img src="images/张3-2.jpg"
-           alt="Fly Suede color range"
-           style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;" />
+    <div class="hero-split-img">
+      <img src="images/张3-2.jpg" alt="Fly Suede recycled leather suede color range" />
     </div>
 
   </section>
