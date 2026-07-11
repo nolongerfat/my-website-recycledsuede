@@ -42,14 +42,14 @@
   </div>
 
   <!-- HERO -->
-  <section style="min-height:100vh;padding-top:var(--nav-h);display:grid;grid-template-columns:420px 1fr;background:var(--off-white);">
+  <section style="height:calc(100vh - var(--nav-h));margin-top:var(--nav-h);display:grid;grid-template-columns:2fr 3fr;background:var(--off-white);overflow:hidden;">
 
-    <!-- Left: text — fixed 420px width -->
-    <div style="display:flex;align-items:center;padding:4rem 2.5rem 4rem 4rem;">
-      <div>
-        <p style="font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:1.25rem;white-space:nowrap;">Recycled Leather Suede · Quanzhou, China</p>
-        <h1 style="font-family:var(--font-display);font-size:clamp(2rem,3.5vw,3.5rem);font-weight:400;color:var(--text-dark);line-height:1.12;margin-bottom:1.25rem;">Material that carries <em style="font-style:italic;color:var(--green);">your sustainability story.</em></h1>
-        <p style="font-size:0.9375rem;color:var(--text-muted);line-height:1.85;margin-bottom:2rem;">100% recycled content. SGS &amp; Bureau Veritas certified. Adidas A-01 standard.</p>
+    <!-- Left: text — 40% width, centered vertically -->
+    <div style="display:flex;align-items:center;justify-content:flex-end;padding:3rem 3rem 3rem 2rem;">
+      <div style="max-width:340px;">
+        <p style="font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:1.25rem;">Recycled Leather Suede · Quanzhou, China</p>
+        <h1 style="font-family:var(--font-display);font-size:clamp(2.25rem,3vw,3.25rem);font-weight:400;color:var(--text-dark);line-height:1.15;margin-bottom:1.25rem;">Material that carries <em style="font-style:italic;color:var(--green);">your sustainability story.</em></h1>
+        <p style="font-size:0.9375rem;color:var(--text-muted);line-height:1.8;margin-bottom:2rem;">100% recycled content. SGS &amp; Bureau Veritas certified. Adidas A-01 standard.</p>
         <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
           <a href="contact.html" class="btn-primary">Request a Sample</a>
           <a href="products.html" class="btn-ghost">View Materials →</a>
@@ -57,11 +57,11 @@
       </div>
     </div>
 
-    <!-- Right: full-height image -->
+    <!-- Right: image fills remaining 60% -->
     <div style="overflow:hidden;">
-      <img src="images/张3-3.jpg"
-           alt="Fly Suede recycled leather suede texture"
-           style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;" />
+      <img src="images/张3-2.jpg"
+           alt="Fly Suede color range"
+           style="width:100%;height:100%;object-fit:cover;object-position:center left;display:block;" />
     </div>
 
   </section>
