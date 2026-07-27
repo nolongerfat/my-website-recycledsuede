@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contato e Solicitação de Amostra | Matterhorn Camurça Reciclada</title>
-  <meta name="description" content="Request a sample or inquiry from MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD. — recycled leather suede supplier in Quanzhou, China. Response within one business day." />
-  <link rel="canonical" href="https://www.recycledsuede.com/pt/contact.html" />  <link rel="alternate" hreflang="en" href="https://www.recycledsuede.com/" />
+  <title>Contactoo y Solicitud de Muestra | Matterhorn Gamuza Reciclada</title>
+  <meta name="description" content="Solicite una muestra o consulta de MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD. — proveedor de gamuza de cuero reciclado en Quanzhou, China. Respuesta en un día hábil." />
+  <link rel="canonical" href="https://www.recycledsuede.com/es/contact.html" />  <link rel="alternate" hreflang="en" href="https://www.recycledsuede.com/" />
   <link rel="alternate" hreflang="es" href="https://www.recycledsuede.com/es/" />
   <link rel="alternate" hreflang="pt" href="https://www.recycledsuede.com/pt/" />
   <link rel="alternate" hreflang="it" href="https://www.recycledsuede.com/it/" />
@@ -22,11 +22,11 @@
     <nav class="nav">
       <a href="../index.html" class="nav-logo">MATTERHORN</a>
             <ul class="nav-links">
-        <li><a href="../products.html">Materiais</a></li>
-        <li><a href="../certifications.html">Certificações</a></li>
-        <li><a href="../about.html">Sobre</a></li>
+        <li><a href="../products.html">Materiales</a></li>
+        <li><a href="../certifications.html">Certificaciones</a></li>
+        <li><a href="../about.html">Sobre nosotros</a></li>
         <li><a href="../blog/">Blog</a></li>
-        <li><a href="../contact.html" class="nav-cta">Solicitar Amostra</a></li>
+        <li><a href="../contact.html" class="nav-cta">Solicitar muestra</a></li>
       </ul>
       <div class="lang-switch">
         <button class="lang-btn" id="langBtn" aria-label="Switch language">
@@ -46,11 +46,11 @@
 
     <div class="mobile-menu" id="mobileMenu">
     <ul>
-      <li><a href="../products.html">Materiais</a></li>
-      <li><a href="../certifications.html">Certificações</a></li>
-      <li><a href="../about.html">Sobre</a></li>
+      <li><a href="../products.html">Materiales</a></li>
+      <li><a href="../certifications.html">Certificaciones</a></li>
+      <li><a href="../about.html">Sobre nosotros</a></li>
       <li><a href="../blog/">Blog</a></li>
-      <li><a href="../contact.html">Solicitar Amostra</a></li>
+      <li><a href="../contact.html">Solicitar muestra</a></li>
     </ul>
       <div class="mobile-lang">
         <a href="/" class="mobile-active">EN</a>
@@ -63,9 +63,9 @@
 
   <section class="page-hero">
     <div class="container">
-      <div class="section-label">Contato</div>
-      <h1>Solicite uma amostra<br /><em>ou inicie uma consulta.</em></h1>
-      <p>Respondemos a todas as consultas B2B qualificadas em um dia útil.</p>
+      <div class="section-label">Contactoo</div>
+      <h1>Solicite una muestra<br /><em>o inicie una consulta.</em></h1>
+      <p>Respondemos a todas las consultas B2B calificadas en un día hábil.</p>
     </div>
   </section>
 
@@ -76,7 +76,7 @@
 
         <!-- FORM -->
         <div class="form-wrap">
-          <h2>Envie seus requisitos</h2>
+          <h2>Envíenos sus requisitos</h2>
           <form action="https://formspree.io/f/maqgozel" method="POST" class="inquiry-form" id="inquiryForm">
 
             <!-- Honeypot spam trap -->
@@ -84,7 +84,7 @@
 
             <div class="form-row">
               <div class="form-group">
-                <label for="name">Seu nome *</label>
+                <label for="name">Su nombre *</label>
                 <input type="text" id="name" name="name" required placeholder="Jane Smith" />
               </div>
               <div class="form-group">
@@ -94,46 +94,46 @@
             </div>
 
             <div class="form-group">
-              <label for="email">E-mail corporativo *</label>
+              <label for="email">Email corporativo *</label>
               <input type="email" id="email" name="email" required placeholder="jane@yourcompany.com" />
             </div>
 
             <div class="form-group">
-              <label for="application">Aplicação *</label>
+              <label for="application">Aplicación *</label>
               <select id="application" name="application" required>
-                <option value="">Selecione seu produto final</option>
-                <option value="footwear-comfort">Calçados de conforto/estilo de vida (estilo Birkenstock, sandálias)</option>
-                <option value="footwear-other">Outros calçados</option>
-                <option value="bags-fashion">Bolsas e acessórios de moda</option>
-                <option value="bags-other">Outras bolsas</option>
-                <option value="other">Outra aplicação</option>
+                <option value="">Seleccione su producto final</option>
+                <option value="footwear-comfort">Calzado de confort/estilo de vida (estilo Birkenstock, sandalias)</option>
+                <option value="footwear-other">Otro calzado</option>
+                <option value="bags-fashion">Bolsos y accesorios de moda</option>
+                <option value="bags-other">Otros bolsos</option>
+                <option value="other">Otra aplicación</option>
               </select>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="quantity">Quantidade estimada</label>
+                <label for="quantity">Cantidad estimada</label>
                 <input type="text" id="quantity" name="quantity" placeholder="e.g. 5,000 m / month" />
               </div>
               <div class="form-group">
-                <label for="country">Seu país *</label>
+                <label for="country">Su país *</label>
                 <input type="text" id="country" name="country" required placeholder="e.g. Germany" />
               </div>
             </div>
 
             <div class="form-group">
-              <label for="message">Conte-nos sobre seu projeto</label>
-              <textarea id="message" name="message" rows="5" placeholder="Direção de cor, requisitos de espessura, certificações específicas necessárias, prazos..."></textarea>
+              <label for="message">Cuéntenos sobre su proyecto</label>
+              <textarea id="message" name="message" rows="5" placeholder="Dirección de color, requisitos de grosor, certificaciones específicas necesarias, plazos..."></textarea>
             </div>
 
             <div class="form-check">
               <input type="checkbox" id="sample" name="sample_request" value="yes" />
-              <label for="sample">Gostaria de receber um cartão de amostra físico</label>
+              <label for="sample">Me gustaría recibir un muestrario físico</label>
             </div>
 
             <button type="submit" class="btn-primary btn-submit">Enviar Consulta →</button>
 
-            <p class="form-note">Só entraremos em contato sobre sua consulta. Sem newsletters, sem spam.</p>
+            <p class="form-note">Solo lo contactamos sobre su consulta. Sin boletines, sin spam.</p>
 
             <div class="form-success" id="formSuccess" style="display:none;">
               <p>✓ Message received. We'll be in touch within one business day.</p>
@@ -144,7 +144,7 @@
         <!-- SIDEBAR -->
         <div class="contact-sidebar">
           <div class="contact-info-card">
-            <h3>Contato direto</h3>
+            <h3>Contactoo directo</h3>
             <div class="contact-method">
               <span class="contact-icon">✉</span>
               <div>
@@ -157,37 +157,37 @@
               <div>
                 <strong>WhatsApp</strong>
                 <a href="https://wa.me/8615396593585" target="_blank">+86 153 9659 3585</a>
-                <span class="contact-sub">Click to open WhatsApp</span>
+                <span class="contact-sub">Haga clic para abrir WhatsApp</span>
               </div>
             </div>
             <div class="contact-method">
               <span class="contact-icon">📍</span>
               <div>
-                <strong>Location</strong>
+                <strong>Ubicación</strong>
                 <span>Quanzhou, Fujian, China</span>
-                <span class="contact-sub">UTC+8 (China Standard Time)</span>
+                <span class="contact-sub">UTC+8 (Hora estándar de China)</span>
               </div>
             </div>
           </div>
 
           <div class="contact-info-card" style="margin-top:1.5rem;">
-            <h3>O que esperar</h3>
+            <h3>Qué esperar</h3>
             <ul class="expect-list">
-              <li>Resposta em 1 dia útil</li>
-              <li>Cartão de amostra enviado por transportadora</li>
-              <li>Relatórios de teste compartilhados com compradores qualificados</li>
-              <li>Sem mínimo para solicitações de amostra</li>
-              <li>Amostras de laboratório de cores personalizadas disponíveis</li>
+              <li>Respuesta en 1 día hábil</li>
+              <li>Muestrario enviado por mensajería</li>
+              <li>Informes de prueba compartidos con compradores calificados</li>
+              <li>Sin mínimo para solicitudes de muestra</li>
+              <li>Muestras de laboratorio de color personalizado disponibles</li>
             </ul>
           </div>
 
           <div class="contact-info-card" style="margin-top:1.5rem;">
-            <h3>Fornecemos para</h3>
+            <h3>Suministramos a</h3>
             <ul class="expect-list">
-              <li>🇩🇪 🇳🇱 🇬🇧 🇫🇷 Europe</li>
-              <li>🇺🇸 🇨🇦 North America</li>
-              <li>🇦🇺 Australia &amp; NZ</li>
-              <li>🇯🇵 🇰🇷 East Asia</li>
+              <li>🇩🇪 🇳🇱 🇬🇧 🇫🇷 Europa</li>
+              <li>🇺🇸 🇨🇦 Norteamérica</li>
+              <li>🇦🇺 Australia y NZ</li>
+              <li>🇯🇵 🇰🇷 Asia Oriental</li>
             </ul>
           </div>
         </div>
@@ -203,18 +203,18 @@
         <p>MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD.<br />Quanzhou, Fujian, China.</p>
       </div>
       <div class="footer-links">
-        <strong>Materiais</strong>
-        <a href="products.html#footwear">Camurça para Calçados</a>
-        <a href="products.html#bags">Camurça para Bolsas e Acessórios</a>
+        <strong>Materiales</strong>
+        <a href="products.html#footwear">Gamuza para calzado</a>
+        <a href="products.html#bags">Gamuza para bolsos y accesorios</a>
       </div>
       <div class="footer-links">
         <strong>Empresa</strong>
-        <a href="../certifications.html">Certificações</a>
-        <a href="../about.html">Sobre Us</a>
-        <a href="../contact.html">Contato</a>
+        <a href="../certifications.html">Certificaciones</a>
+        <a href="../about.html">Sobre nosotros Us</a>
+        <a href="../contact.html">Contacto</a>
       </div>
       <div class="footer-contact">
-        <strong>Contato</strong>
+        <strong>Contacto</strong>
         <a href="mailto:359238641@qq.com">359238641@qq.com</a>
         <a href="https://wa.me/8615396593585" target="_blank">WhatsApp: +86 153 9659 3585</a>
       </div>
