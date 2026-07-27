@@ -1,4 +1,20 @@
-// Mobile menu toggle
+// ── Language switcher dropdown ──
+const langBtn = document.getElementById('langBtn');
+const langDropdown = document.getElementById('langDropdown');
+
+if (langBtn && langDropdown) {
+  langBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    langDropdown.classList.toggle('show');
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', () => {
+    langDropdown.classList.remove('show');
+  });
+}
+
+// ── Mobile menu toggle ──
 const burger = document.querySelector('.nav-burger');
 const mobileMenu = document.getElementById('mobileMenu');
 
