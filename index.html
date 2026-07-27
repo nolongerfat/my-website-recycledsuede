@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matterhorn | Recycled Leather Suede Supplier — Quanzhou, China</title>
+  <meta name="description" content="MATTERHORN supplies 100% recycled leather suede for footwear and fashion bags. SGS & Bureau Veritas certified. Adidas A-01 compliant. B2B supplier from Quanzhou, Fujian, China." />
+  <link rel="canonical" href="https://www.recycledsuede.com/" />
+  <meta property="og:title" content="Matterhorn | Recycled Leather Suede Supplier" />
+  <meta property="og:description" content="100% recycled leather suede. SGS & Bureau Veritas certified. B2B supplier, Quanzhou China." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.recycledsuede.com/" />
+    <link rel="alternate" hreflang="en" href="https://www.recycledsuede.com/" />
+  <link rel="alternate" hreflang="es" href="https://www.recycledsuede.com/es/" />
+  <link rel="alternate" hreflang="pt" href="https://www.recycledsuede.com/pt/" />
+  <link rel="alternate" hreflang="it" href="https://www.recycledsuede.com/it/" />
+  <link rel="alternate" hreflang="de" href="https://www.recycledsuede.com/de/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.recycledsuede.com/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── Homepage overrides ── */
+
+    /* Hero */
+    .hp-hero {
+      margin-top: var(--nav-h);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: var(--off-white);
+    }
+    .hp-hero-text {
+      padding: 3.5rem 3rem 3.5rem 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hp-hero-img {
+      overflow: hidden;
+      aspect-ratio: 3/2;
+    }
+    .hp-hero-img img {
+      width: 100%; height: 100%;
+      object-fit: cover; object-position: center;
+      display: block;
+    }
+
+    /* What we make */
+    .hp-what {
+      padding: 3rem 0;
+      background: var(--white);
+      border-bottom: 1px solid var(--light-grey);
+    }
+    .hp-what-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .hp-what-img {
+      overflow: hidden;
+      border-radius: var(--radius);
+      aspect-ratio: 4/3;
+    }
+    .hp-what-img img {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+    }
+    .hp-what h2 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--text-dark);
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+    .hp-what p {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 1.5rem;
+    }
+    .hp-usecase {
+      border-left: 2px solid var(--green);
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+    }
+    .hp-usecase-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      margin-bottom: 0.2rem;
+    }
+    .hp-usecase-desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 0.4rem;
+    }
+
+    /* Why section */
+    .hp-why {
+      padding: 3rem 0;
+      background: var(--off-white);
+      border-bottom: 1px solid var(--light-grey);
+    }
+    .hp-why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    .hp-why h2 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--text-dark);
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+    .hp-why p {
+      font-size: 0.9375rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 0.75rem;
+    }
+    .hp-stat {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--light-grey);
+    }
+    .hp-stat:last-child { border-bottom: none; }
+    .hp-stat-num {
+      font-family: var(--font-display);
+      font-size: 2.75rem;
+      font-weight: 400;
+      color: var(--green);
+      line-height: 1;
+      min-width: 80px;
+    }
+    .hp-stat-label {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Trust strip */
+    .hp-trust {
+      background: var(--white);
+      border-bottom: 1px solid var(--light-grey);
+    }
+    .hp-trust-grid {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+    }
+    .hp-trust-item {
+      padding: 1.25rem 2rem;
+      border-right: 1px solid var(--light-grey);
+    }
+    .hp-trust-item:last-child { border-right: none; }
+    .hp-trust-num {
+      font-family: var(--font-display);
+      font-size: 1.375rem;
+      color: var(--text-dark);
+    }
+    .hp-trust-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+      .hp-hero { grid-template-columns: 1fr; }
+      .hp-hero-text { padding: 2.5rem 1.5rem; order: 2; }
+      .hp-hero-img { order: 1; aspect-ratio: 16/9; }
+      .hp-what-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .hp-why-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .hp-trust-grid { grid-template-columns: 1fr 1fr; }
+      .hp-trust-item:nth-child(2) { border-right: none; }
+      .hp-trust-item:nth-child(3) { border-right: 1px solid var(--light-grey); }
+    }
+    @media (max-width: 480px) {
+      .hp-hero-text { padding: 2rem 1.25rem; }
+      .hp-what { padding: 2.5rem 0; }
+      .hp-why { padding: 2.5rem 0; }
+      .hp-trust-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">MATTERHORN</a>
+      <ul class="nav-links">
+        <li><a href="products.html">Materials</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="contact.html" class="nav-cta">Request Sample</a></li>
+      </ul>
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">
+          🌐 EN <span class="lang-arrow">▾</span>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+            <a href="/" class="active">EN</a>
+            <a href="/es/" class="">ES</a>
+            <a href="/pt/" class="">PT</a>
+            <a href="/it/" class="">IT</a>
+            <a href="/de/" class="">DE</a>
+        </div>
+      </div>
+      <button class="nav-burger" aria-label="Menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="products.html">Materials</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="contact.html">Request Sample</a></li>
+    </ul>
+      <div class="mobile-lang">
+        <a href="/" class="mobile-active">EN</a>
+        <a href="/es/" class="">ES</a>
+        <a href="/pt/" class="">PT</a>
+        <a href="/it/" class="">IT</a>
+        <a href="/de/" class="">DE</a>
+      </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hp-hero">
+    <div class="hp-hero-text">
+      <p style="font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:1rem;">Recycled Leather Suede · Quanzhou, China</p>
+      <h1 style="font-family:var(--font-display);font-size:clamp(2rem,2.8vw,3rem);font-weight:400;color:var(--text-dark);line-height:1.15;margin-bottom:1rem;">Material that carries <em style="font-style:italic;color:var(--green);">your sustainability story.</em></h1>
+      <p style="font-size:0.9375rem;color:var(--text-muted);line-height:1.75;margin-bottom:1.75rem;max-width:320px;">100% recycled content. SGS &amp; Bureau Veritas certified. Adidas A-01 standard.</p>
+      <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+        <a href="contact.html" class="btn-primary">Request a Sample</a>
+        <a href="products.html" class="btn-ghost">View Materials →</a>
+      </div>
+    </div>
+    <div class="hp-hero-img">
+      <img src="images/张3-2.jpg" alt="Fly Suede recycled leather suede color range" />
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="hp-trust">
+    <div class="hp-trust-grid">
+      <div class="hp-trust-item">
+        <div class="hp-trust-num">100%</div>
+        <div class="hp-trust-label">Recycled Content</div>
+      </div>
+      <div class="hp-trust-item">
+        <div class="hp-trust-num">SGS</div>
+        <div class="hp-trust-label">Full Test 2024</div>
+      </div>
+      <div class="hp-trust-item">
+        <div class="hp-trust-num">BV</div>
+        <div class="hp-trust-label">Bureau Veritas</div>
+      </div>
+      <div class="hp-trust-item">
+        <div class="hp-trust-num">Adidas</div>
+        <div class="hp-trust-label">A-01 Compliant</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE MAKE -->
+  <section class="hp-what">
+    <div class="container">
+      <div class="hp-what-grid">
+        <div class="hp-what-img">
+          <img src="images/张4-3.jpg" alt="Fly Suede available colors" />
+        </div>
+        <div>
+          <p style="font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:0.5rem;">What we make</p>
+          <h2 style="font-family:var(--font-display);font-size:1.875rem;font-weight:400;color:var(--text-dark);line-height:1.2;margin-bottom:0.75rem;">Recycled leather suede for footwear and bags.</h2>
+          <p>Our Fly Suede is made from 100% recycled leather and PET fiber — tested to the same standards as Adidas supplier materials. Custom colorways available on request.</p>
+          <div class="hp-usecase">
+            <div class="hp-usecase-title">Comfort &amp; Lifestyle Footwear</div>
+            <div class="hp-usecase-desc">Birkenstock-style sandals, slip-ons, casual shoes. SGS Adidas A-01 2024 full test pass.</div>
+            <a href="products.html#footwear" class="use-link">See footwear specs →</a>
+          </div>
+          <div class="hp-usecase">
+            <div class="hp-usecase-title">Fashion Bags &amp; Accessories</div>
+            <div class="hp-usecase-desc">Coach and Michael Kors quality tier. Bureau Veritas 23-parameter panel, all passed.</div>
+            <a href="products.html#bags" class="use-link">See bag specs →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDENTIALS STRIP -->
+  <section class="cred-strip">
+    <div class="container">
+      <div class="cred-grid">
+        <div class="cred-item"><strong>PFAS Free</strong><span>Bureau Veritas tested, ND</span></div>
+        <div class="cred-item"><strong>Zero Formaldehyde</strong><span>ND on SGS full test panel</span></div>
+        <div class="cred-item"><strong>No Hexavalent Chromium</strong><span>ISO 17075-1:2017 compliant</span></div>
+        <div class="cred-item"><strong>Azo Dye Free</strong><span>EN ISO 17234 tested, passed</span></div>
+        <div class="cred-item"><strong>100% Recycled</strong><span>Leather &amp; PET fiber substrate</span></div>
+        <div class="cred-item"><strong>Adidas A-01 2024</strong><span>Full test, all items passed</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY MATTERHORN -->
+  <section class="hp-why">
+    <div class="container">
+      <div class="hp-why-grid">
+        <div>
+          <p style="font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--green);font-weight:500;margin-bottom:0.5rem;">Why Matterhorn</p>
+          <h2 style="font-family:var(--font-display);font-size:1.875rem;font-weight:400;color:var(--text-dark);line-height:1.2;margin-bottom:0.75rem;">Third-party verified. <em style="font-style:italic;color:var(--green);">Not just self-declared.</em></h2>
+          <p>Many suppliers claim sustainability. We provide SGS and Bureau Veritas test reports on every material — so your procurement team has documentation they can actually use.</p>
+          <p>Based in Quanzhou, Fujian — China's largest footwear manufacturing hub. We work directly with brands and ODM factories across Europe, North America, and Australia.</p>
+          <a href="certifications.html" class="btn-primary" style="margin-top:0.5rem;display:inline-block;">View Test Reports</a>
+        </div>
+        <div>
+          <div class="hp-stat">
+            <span class="hp-stat-num">23</span>
+            <span class="hp-stat-label">Test parameters passed<br />(Bureau Veritas panel)</span>
+          </div>
+          <div class="hp-stat">
+            <span class="hp-stat-num">100%</span>
+            <span class="hp-stat-label">Recycled material content<br />in our Fly Suede</span>
+          </div>
+          <div class="hp-stat">
+            <span class="hp-stat-num">SGS</span>
+            <span class="hp-stat-label">Full test under<br />Adidas A-01 2024 standard</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container" style="text-align:center;">
+      <h2 style="font-family:var(--font-display);font-size:2.25rem;font-weight:400;color:var(--white);margin-bottom:0.75rem;">Ready to source recycled suede?</h2>
+      <p style="font-size:1rem;color:rgba(255,255,255,0.65);margin-bottom:2rem;">Sample cards and full test documentation. We respond within one business day.</p>
+      <a href="contact.html" class="btn-primary btn-light">Request a Sample →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">MATTERHORN</div>
+        <p>MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD.<br />Quanzhou, Fujian, China.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Materials</strong>
+        <a href="products.html#footwear">Footwear Suede</a>
+        <a href="products.html#bags">Bag &amp; Accessories Suede</a>
+      </div>
+      <div class="footer-links">
+        <strong>Company</strong>
+        <a href="certifications.html">Certifications</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <strong>Contact</strong>
+        <a href="mailto:359238641@qq.com">359238641@qq.com</a>
+        <a href="https://wa.me/8615396593585" target="_blank">WhatsApp: +86 153 9659 3585</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD. Quanzhou, Fujian, China.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/8615396593585" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
