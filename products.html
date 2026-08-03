@@ -18,6 +18,65 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "Fly Suede — Footwear Grade",
+          "description": "100% recycled leather suede for comfort and lifestyle footwear. Adidas A-01 2024 compliant. SGS tested. CrVI free, formaldehyde free, azo free.",
+          "url": "https://www.recycledsuede.com/products.html#footwear",
+          "image": "https://www.recycledsuede.com/images/hero-suede-amber.webp",
+          "category": "Footwear Materials",
+          "material": "Recycled Leather & PET Fiber",
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD."
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Fly Suede — Bag Grade",
+          "description": "100% recycled leather suede for fashion bags and accessories at Coach/Michael Kors quality tier. Bureau Veritas tested, 23 parameters all passed. PFAS free, BPA free.",
+          "url": "https://www.recycledsuede.com/products.html#bags",
+          "image": "https://www.recycledsuede.com/images/suede-application-bag-tote-side.webp",
+          "category": "Bag & Accessory Materials",
+          "material": "Recycled Leather & PET Fiber",
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "MATTERHORN NEW MATERIALS TECHNOLOGY CO., LTD."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.recycledsuede.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Materials",
+          "item": "https://www.recycledsuede.com/products.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -78,7 +137,7 @@
     <div class="container">
       <div class="section-label">Color Range</div>
       <h2 style="font-family:var(--font-display);font-size:clamp(1.75rem,3vw,2.75rem);font-weight:400;color:var(--text-dark);margin-bottom:1.5rem;">Available in a wide range<br /><em>of standard and custom colors.</em></h2>
-      <img src="images/张4-3.jpg" alt="Fly Suede color range" style="width:100%;max-height:420px;object-fit:cover;border-radius:var(--radius);display:block;" />
+      <img src="images/suede-color-range.webp" alt="Fly Suede color range" style="width:100%;max-height:420px;object-fit:cover;border-radius:var(--radius);display:block;" />
       <p style="font-size:1rem;color:var(--text-muted);margin-top:1rem;">Standard colors available from stock. Custom lab dips on request — typical approval cycle 3–4 weeks. Contact us with your Pantone or physical reference.</p>
     </div>
   </section>
@@ -114,7 +173,7 @@
           <a href="contact.html" class="btn-primary" style="margin-top:1.5rem;display:inline-block;">Request Footwear Sample →</a>
         </div>
         <div class="product-visual footwear-visual">
-          <img src="images/张1-麂皮5.jpg" alt="Fly Suede footwear grade texture" style="width:100%;height:260px;object-fit:cover;border-radius:2px;margin-bottom:1rem;" />
+          <img src="images/hero-suede-amber.webp" alt="Fly Suede footwear grade texture" style="width:100%;height:260px;object-fit:cover;border-radius:2px;margin-bottom:1rem;" />
           <div class="visual-label">Fly Suede — Footwear Grade</div>
           <div class="spec-chips">
             <span>100% Recycled</span>
@@ -165,7 +224,7 @@
           <a href="contact.html" class="btn-primary" style="margin-top:1.5rem;display:inline-block;">Request Bag Sample →</a>
         </div>
         <div class="product-visual bags-visual">
-          <img src="images/张1-麂皮6.jpg" alt="Fly Suede bag grade texture" style="width:100%;height:260px;object-fit:cover;border-radius:2px;margin-bottom:1rem;" />
+          <img src="images/suede-application-bag-tote.webp" alt="Fly Suede bag grade texture" style="width:100%;height:260px;object-fit:cover;border-radius:2px;margin-bottom:1rem;" />
           <div class="visual-label">Fly Suede — Bag Grade</div>
           <div class="spec-chips">
             <span>PFAS Free</span>
